@@ -6,16 +6,18 @@ MongoClient.connect('mongodb://localhost:27017/Prototype',(err,db) =>{
     }
     console.log("Connected to MongoDB Server");
 
-    db.collection('TodoList').insertOne({
-        text: "Next what to do",
-        completed: false
-    },(err,result)=>{
-        if(err){
-            return console.log("Unable to insert in the list", err)
-        }
+    db.collection('TodoList').deleteMany({text: "iron Clothes"}).then((result) => {
+        console.log(result);
+    })
+    //     text: "Next what to do",
+    //     completed: false
+    // },(err,result)=>{
+    //     if(err){
+    //         return console.log("Unable to insert in the list", err)
+    //     }
 
-        console.log(JSON.stringify(result.ops, undefined, 2));
-    });
+    //     console.log(JSON.stringify(result.ops, undefined, 2));
+    // });
 
     // db.collection('Users').insertOne({
     //     name: "gaurav",
