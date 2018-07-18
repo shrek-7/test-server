@@ -1,5 +1,25 @@
 {
-  "post":"[
-  {"name": "postName0"},{"name": "postName1"},{"name": "postName2"},
-  ]"
+  "posts" : [
+  {
+    "title":"postTitle",
+    "desc": "postDescription",
+    "createdBy": "ownerName",
+    "date": "createdDate"
+    },{
+    "title":"postTitle",
+    "desc": "postDescription",
+    "createdBy": "ownerName",
+    "date": "createdDate"
+    },{
+    "title":"postTitle",
+    "desc": "postDescription",
+    "createdBy": "ownerName",
+    "date": "createdDate"
+    },{
+    "title":"postTitle",
+    "desc": "postDescription",
+    "createdBy": "ownerName",
+    "date": "createdDate"
+    }
+  ]
 }
