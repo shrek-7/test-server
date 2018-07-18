@@ -1,5 +1,5 @@
 {
-  "posts" : [
+  "posts" : "[
   {
     "title":"postTitle",
     "desc": "postDescription",
@@ -21,5 +21,5 @@
     "createdBy": "ownerName",
     "date": "createdDate"
     },
-  ]
+  ]"
 }
